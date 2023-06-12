@@ -1,0 +1,52 @@
+.event {
+  padding: 60px 10px 30px 30px;
+}
+
+.event img {
+  padding-bottom: 20px;
+}
+
+.event a {
+  text-transform: uppercase;
+  font-family: "Aspekta-650";
+  font-size: 30px;
+}
+
+.event p {
+  font-family: "Aspekta-450";
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.container-case {
+  display: flex;
+  padding-top: 20px;
+}
+
+.black-case p {
+  background: #000000;
+  border-radius: 10px;
+  font-family: BDRmono2006;
+  font-size: 25px;
+  color: #ffffff;
+  letter-spacing: 0;
+  width: 110px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.black-case {
+  padding-right: 10px;
+}
+
+.white-case p {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: BDRmono2006;
+  font-size: 25px;
+  color: #000000;
+  letter-spacing: 0;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+}
