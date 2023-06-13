@@ -1,7 +1,6 @@
 .tickets-promo {
   background-image: url(../img/fond-texture.png);
   background-size: cover;
-  padding: 60px 0 0 30px;
   height: 400px;
 }
 
@@ -12,6 +11,7 @@
   color: #000000;
   letter-spacing: 0;
   text-transform: uppercase;
+  padding: 40px 0 0 30px;
 }
 
 .tickets-promo p {
@@ -20,12 +20,11 @@
   color: #000000;
   letter-spacing: 0;
   line-height: 37px;
-  padding-top: 25px;
+  padding: 25px 0 0 30px;
 }
 
 .banner img {
-  width: cover;
+  width: 600px;
   margin: 0;
-  height: 300px;
-  padding-left: 115px;
+  height: 400px;
 }
