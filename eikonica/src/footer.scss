@@ -21,15 +21,36 @@
   padding-bottom: 7px;
 }
 
-.copyright {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-}
-
 .copyright p {
   font-family: Aspekta-300;
   font-size: 16px;
   color: #ffffff;
   letter-spacing: 0;
+  justify-content: flex-end;
+}
+
+.row {
+  display: flex;
+}
+
+.partners {
+  padding: 60px 0 0 40px;
+}
+
+.partners h1 {
+  font-family: Aspekta-600;
+  font-size: 45px;
+  color: #000000;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.partners img {
+  height: 55px;
+  width: auto;
+  padding: 40px 20px 0 0;
+}
+
+.etat-fribourg {
+  width: 50%;
 }
