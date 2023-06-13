@@ -2,7 +2,7 @@
   background-image: url(../img/titre.png);
   background-repeat: repeat-x;
   background-size: contain;
-  background-position: 90px 0;
+  background-position: 50px 50px;
   animation: carousel 2s infinite linear;
   width: 110vw;
   height: 70px;
@@ -10,9 +10,9 @@
 
 @keyframes carousel {
   from {
-    background-position: -60px 0;
+    background-position: -50px 0;
   }
   to {
-    background-position: 60px 0;
+    background-position: 50px 0;
   }
 }
