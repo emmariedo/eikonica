@@ -4,41 +4,20 @@
 }
 
 @keyframes bounce {
-  70% {
-    transform: translateY(0%);
-  }
-  80% {
-    transform: translateY(-15%);
-  }
-  90% {
-    transform: translateY(0%);
-  }
-  97% {
-    transform: translateY(0%);
-  }
-  99% {
-    transform: translateY(-3%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@keyframes bounce {
   0% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(2deg);
   }
   25% {
-    transform: translate(3px, 3px) rotate(-1deg);
+    transform: translate(5px, 0px) rotate(2deg);
   }
   50% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: translate(4, 0) rotate(-2deg);
   }
   75% {
-    transform: translate(-3px, 3px) rotate(1deg);
+    transform: translate(5px, 0px) rotate(2deg);
   }
   100% {
-    transform: translate(0, 0) rotate(0deg);
+    transform: translate(0, 0) rotate(-2deg);
   }
 }
 
