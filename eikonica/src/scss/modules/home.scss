@@ -13,7 +13,7 @@
   font-size: 117px;
   color: #000000;
   letter-spacing: 0;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .infos h2 {
@@ -23,6 +23,8 @@
   color: #000000;
   letter-spacing: 0;
   text-transform: uppercase;
+  position: relative;
+  top: -20;
 }
 
 .infos p {
@@ -30,8 +32,8 @@
   font-size: 27px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 37px;
-  padding-top: 23px;
+  line-height: 35px;
+  padding-top: 17px;
 }
 
 .hands img {
