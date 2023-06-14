@@ -31,6 +31,12 @@
 
 .row {
   display: flex;
+  justify-content: space-between;
+}
+
+.row .copyright {
+  display: flex;
+  align-items: center;
 }
 
 .partners {
