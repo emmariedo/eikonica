@@ -16,6 +16,12 @@
   padding-top: 15px;
 }
 
+@media screen and (max-width: 1366px) {
+  .infos h1 {
+    font-size: 90px;
+  }
+}
+
 .infos h2 {
   font-family: BDRmono2006;
   font-weight: 300;
@@ -27,6 +33,12 @@
   top: -20;
 }
 
+@media screen and (max-width: 1366px) {
+  .infos h2 {
+    font-size: 65px;
+  }
+}
+
 .infos p {
   font-family: Aspekta-300;
   font-size: 27px;
@@ -36,10 +48,12 @@
   padding-top: 17px;
 }
 
-.hands img {
-  width: auto;
-  margin: 0%;
-  padding: 0;
+@media screen and (max-width: 1366px) {
+  .infos p {
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 10px;
+  }
 }
 
 .infos a {
@@ -47,10 +61,14 @@
   font-size: 32px;
 }
 
-.bars a {
-  text-decoration: none;
+@media screen and (max-width: 1366px) {
+  .infos a {
+    font-size: 26px;
+  }
 }
 
-a:visited {
-  text-decoration: underline;
+.hands img {
+  width: auto;
+  margin: 0%;
+  padding: 0;
 }

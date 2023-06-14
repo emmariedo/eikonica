@@ -26,21 +26,45 @@
   padding: 31px 0 20px 25px;
 }
 
+@media screen and (max-width: 1366px) {
+  .logo-eikonica img {
+    width: 30%;
+  }
+}
+
 .bars {
   display: flex;
   justify-content: space-around;
-  padding: 51px 50px 40px 25px;
+  padding: 51px 50px 40px 0;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 1366px) {
   .bars {
-    padding: 53px 50px 40px 25px;
+    padding: 40px 40px 50px 0;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .bars a {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .bars {
+    padding: 45px 40px 30px 0;
   }
 }
 
 p {
   font-family: "Aspekta 450";
   font-size: 32px;
+}
+
+@media screen and (max-width: 1366px) {
+  p {
+    font-size: 25px;
+  }
 }
 
 .french-selector {
@@ -51,4 +75,12 @@ p {
   display: flex;
   justify-content: flex-end;
   padding-left: 10px;
+}
+
+.bars a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: underline;
 }
