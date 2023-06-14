@@ -15,6 +15,12 @@
   padding: 50px 0 0 30px;
 }
 
+@media screen and (max-width: 1366px) {
+  .tickets-promo h3 {
+    font-size: 50px;
+  }
+}
+
 .tickets-promo p {
   font-family: Aspekta-300;
   font-size: 30px;
@@ -24,12 +30,25 @@
   padding: 25px 0 0 30px;
 }
 
+@media screen and (max-width: 1366px) {
+  .tickets-promo p {
+    font-size: 27px;
+    line-height: 33px;
+  }
+}
+
 .banner img {
   width: 700px;
   margin: 0;
   height: 450px;
   position: absolute;
   right: 0;
+}
+
+@media screen and (max-width: 1366px) {
+  .banner img {
+    width: 800px;
+  }
 }
 
 .banner {
