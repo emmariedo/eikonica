@@ -12,10 +12,22 @@
   font-size: 30px;
 }
 
+@media screen and (max-width: 1366px) {
+  .event a {
+    font-size: 27px;
+  }
+}
+
 .event p {
   font-family: "Aspekta-450";
   font-size: 30px;
   line-height: 33px;
+}
+
+@media screen and (max-width: 1366px) {
+  .event p {
+    font-size: 27px;
+  }
 }
 
 .container-case {
@@ -35,6 +47,13 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1366px) {
+  .black-case p {
+    font-size: 22px;
+    width: 100px;
+  }
+}
+
 .black-case {
   padding-right: 10px;
 }
@@ -49,4 +68,11 @@
   width: 235px;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1366px) {
+  .white-case p {
+    font-size: 22px;
+    width: 205px;
+  }
 }
