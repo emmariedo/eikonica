@@ -38,7 +38,7 @@
 }
 
 .banner img {
-  width: 700px;
+  width: 650px;
   margin: 0;
   height: 450px;
   position: absolute;
@@ -47,7 +47,8 @@
 
 @media screen and (max-width: 1366px) {
   .banner img {
-    width: 800px;
+    width: auto;
+    height: 450px;
   }
 }
 
