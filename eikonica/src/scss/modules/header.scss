@@ -1,3 +1,11 @@
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+
 .bounce {
   animation: bounce 2s ease infinite;
   font-family: "Aspekta 550";
