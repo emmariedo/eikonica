@@ -1,6 +1,12 @@
 .newsletter {
   background-color: black;
-  height: 400px;
+  height: 360px;
+}
+
+@media screen and (max-width: 1366px) {
+  .newsletter {
+    height: 430px;
+  }
 }
 
 .newsletter p {
@@ -16,11 +22,11 @@
 .newsletter h3 {
   font-family: BDRmono2006;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffffff;
   letter-spacing: 0;
   text-transform: uppercase;
-  padding: 20px 0 0 30px;
+  padding: 15px 0 0 30px;
 }
 
 .text-newsletter {
@@ -52,4 +58,10 @@
   padding: 15px;
   width: 140px;
   text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+  .inscriptions {
+    padding: 52px 0 0 95px;
+  }
 }

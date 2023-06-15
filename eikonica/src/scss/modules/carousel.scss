@@ -1,5 +1,5 @@
 .carousel {
-  background-image: url(../img/titre.png);
+  background-image: url(../img/titre-black.png);
   background-repeat: repeat-x;
   background-size: contain;
   background-position: 100px 0;
@@ -17,4 +17,16 @@
   to {
     background-position: 120vw;
   }
+}
+
+.animation-end {
+  background-image: url(../img/titre-white.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: 100px 0;
+  width: 110vw;
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+  animation: carousel 18s infinite linear;
 }
