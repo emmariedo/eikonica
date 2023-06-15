@@ -43,11 +43,17 @@
   padding: 50px 0 0 30px;
 }
 
-.inscriptions {
+.button {
   padding: 52px 0 0 25px;
 }
 
-.inscriptions h4 {
+@media screen and (max-width: 1366px) {
+  .button {
+    padding: 52px 0 0 95px;
+  }
+}
+
+.button h4 {
   background: #ffffff;
   border-radius: 15px;
   font-family: BDRmono2006-Bold;
@@ -58,10 +64,10 @@
   padding: 15px;
   width: 140px;
   text-align: center;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1366px) {
-  .inscriptions {
-    padding: 52px 0 0 95px;
-  }
+.button h4:hover {
+  background-color: #5c5c5c;
+  color: #ffffff;
 }
