@@ -45,7 +45,7 @@
   width: 110px;
   text-align: center;
   text-transform: uppercase;
-  padding: 3px;
+  padding: 4px;
 }
 
 @media screen and (max-width: 1366px) {
@@ -59,7 +59,7 @@
   padding-right: 12px;
 }
 
-.white-case p {
+.white-case button {
   border: 1px solid #000000;
   border-radius: 12px;
   font-family: BDRmono2006;
@@ -69,11 +69,11 @@
   width: 235px;
   text-align: center;
   text-transform: uppercase;
-  padding: 3px;
+  padding: 4px;
 }
 
 @media screen and (max-width: 1366px) {
-  .white-case p {
+  .white-case button {
     font-size: 22px;
     width: 205px;
   }
